@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CmsUno\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-08-25 11:09+0100\n"
+"PO-Revision-Date: 2015-08-25 11:09+0100\n"
+"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Report-\tmsgstr-Bugs-To: \n"
+"Report-\t\tmsgstr-Bugs-To: \n"
+"X-Poedit-KeywordsList: _\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SearchPath-0: ../../..\n"
+
+#: ../../../tem2uno.php:19
+msgid "Theme to Uno"
+msgstr "Thème pour Uno"
+
+#: ../../../tem2uno.php:20
+msgid "This plugin is used to transform a theme from a CMS for a use in CMSUno."
+msgstr "Ce plugin transforme un thème provenant d'un autre CMS pour une utilisation par CMSUno."
+
+#: ../../../tem2uno.php:21
+msgid "Simply download the ZIP file of the theme and double click on it. Click Analyze and choose the specific template. The theme will be available in config tab."
+msgstr "Télécharger le fichier ZIP du thème et double-cliquez. Analysez. Choisissez le bon fichier de template. Le thème sera disponible dans la partie config."
+
+#: ../../../tem2uno.php:26
+msgid "Some adjustments to the html file may be necessary to stick perfectly to your needs."
+msgstr "Certains ajustements seront peut-être nécessaire."
+
+#: ../../../tem2uno.php:27
+msgid "Create Template :"
+msgstr "Créer le template :"
+
+#: ../../../tem2uno.php:30
+msgid "Origin"
+msgstr "Origine"
+
+#: ../../../tem2uno.php:37
+msgid "Select the origin of the ZIP file from CMS proposed list."
+msgstr "Sélectionner le CMS d'origine dans la liste proposée."
+
+#: ../../../tem2uno.php:40
+msgid "Template (.zip)"
+msgstr "Template (.zip)"
+
+#: ../../../tem2uno.php:43
+msgid "File manager"
+msgstr "Gestionnaire de fichiers"
+
+#: ../../../tem2uno.php:43
+msgid "File Manager"
+msgstr "Finder"
+
+#: ../../../tem2uno.php:45
+msgid "Analyze Template"
+msgstr "Analyse du template"
+
+#: ../../../tem2uno.php:45
+msgid "Analyze"
+msgstr "Analyse"
+
+#: ../../../tem2uno.php:49
+msgid "Select a template :"
+msgstr "Sélectionner un template :"
+
+#: ../../../tem2uno.php:53
+msgid "Remove Template :"
+msgstr "Supprimer un template :"
+
+#: ../../../tem2uno.php:65
+msgid "Deletion made"
+msgstr "Suppression effectuée"
+
+#: ../../../tem2uno.php:66
+msgid "Impossible deletion"
+msgstr "Suppression impossible"
+
+#: ../../../tem2uno.php:68
+#: ../../../tem2uno.php:138
+#: ../../../tem2uno.php:157
+msgid "Error"
+msgstr "Erreur"
+
+#: ../../../tem2uno.php:136
+#: ../../../tem2uno.php:155
+msgid "Not a ZIP file"
+msgstr "Pas un fichier ZIP"
+
+#: ../../../tem2uno.php:175
+msgid "Selected"
+msgstr "Selectionné"
+
