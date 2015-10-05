@@ -24,3 +24,5 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 ### Theme to Uno ###
 
 Used to automatically transform a theme from another CMS (GetSimple & b2evolution) for a use in CMSUno.
+
+[CMSUno](https://github.com/boiteasite/cmsuno)
