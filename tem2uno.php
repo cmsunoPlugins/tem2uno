@@ -16,41 +16,41 @@ if (isset($_POST['action']))
 		case 'plugin': 
 			if(is_dir('../../template/tem2uno/')) f_rmdirR('../../template/tem2uno/'); ?>
 		<div class="blocForm">
-			<h2><?php echo _("Theme to Uno");?></h2>
-			<p><?php echo _("This plugin is used to transform a theme from a CMS for a use in CMSUno.");?></p>
-			<p><?php echo _("Simply download the ZIP file of the theme and double click on it. Click Analyze and choose the specific template. The theme will be available in config tab.");?></p>
+			<h2><?php echo T_("Theme to Uno");?></h2>
+			<p><?php echo T_("This plugin is used to transform a theme from a CMS for a use in CMSUno.");?></p>
+			<p><?php echo T_("Simply download the ZIP file of the theme and double click on it. Click Analyze and choose the specific template. The theme will be available in config tab.");?></p>
 			<p>
 				<a href="http://get-simple.info/extend/all_themes.php" target="_blank">GetSimple</a>&nbsp;-&nbsp;
 				<a href="http://skins.b2evolution.net/" target="_blank">b2evolution</a>
 			</p>
-			<p><?php echo _("Some adjustments to the html file may be necessary to stick perfectly to your needs.");?></p>
-			<h3><?php echo _("Create Template :");?></h3>
+			<p><?php echo T_("Some adjustments to the html file may be necessary to stick perfectly to your needs.");?></p>
+			<h3><?php echo T_("Create Template :");?></h3>
 			<table class="hForm">
 				<tr>
-					<td><label><?php echo _("Origin");?></label></td>
+					<td><label><?php echo T_("Origin");?></label></td>
 					<td>
 						<select id="tem2unoCms" name="tem2unoCms">
 							<option value="gs">GetSimple</option>
 							<option value="b2">b2evolution</option>
 						</select>
 					</td>
-					<td><em><?php echo _("Select the origin of the ZIP file from CMS proposed list.");?></em></td>
+					<td><em><?php echo T_("Select the origin of the ZIP file from CMS proposed list.");?></em></td>
 				</tr>
 				<tr>
-					<td><label><?php echo _("Template (.zip)");?></label></td>
+					<td><label><?php echo T_("Template (.zip)");?></label></td>
 					<td>
 						<input type="text" class="input" name="tem2unoZip" id="tem2unoZip" value="" />
-						<div class="bouton" style="margin-left:30px;" id="bFTem2uno" onClick="f_finder_select('tem2unoZip')" title="<?php echo _("File manager");?>"><?php echo _("File Manager");?></div>
+						<div class="bouton" style="margin-left:30px;" id="bFTem2uno" onClick="f_finder_select('tem2unoZip')" title="<?php echo T_("File manager");?>"><?php echo T_("File Manager");?></div>
 					</td>
-					<td><div class="bouton fr" onClick="f_analyze_tem2uno();" title="<?php echo _("Analyze Template");?>"><?php echo _("Analyze");?></div></td>
+					<td><div class="bouton fr" onClick="f_analyze_tem2uno();" title="<?php echo T_("Analyze Template");?>"><?php echo T_("Analyze");?></div></td>
 				</tr>
 			</table>
 			<div id="anaTem2uno" style="display:none;">
-				<h3><?php echo _("Select a template :");?></h3>
+				<h3><?php echo T_("Select a template :");?></h3>
 				<ul id="listTem2uno"></ul>
 			</div>
 			<hr />
-			<h3><?php echo _("Remove Template :");?></h3>
+			<h3><?php echo T_("Remove Template :");?></h3>
 			<table id="outTem2uno">
 				<?php f_theme_tem2uno($Ubusy); ?>
 			</table>
@@ -62,10 +62,10 @@ if (isset($_POST['action']))
 		case 'supp':
 		if(isset($_POST['s']))
 			{
-			if(f_rmdirR('../../template/'.$_POST['s'])) echo _('Deletion made');
-			else echo '!'._('Impossible deletion');
+			if(f_rmdirR('../../template/'.$_POST['s'])) echo T_('Deletion made');
+			else echo '!'.T_('Impossible deletion');
 			}
-		else echo '!'._('Error');
+		else echo '!'.T_('Error');
 		break;
 		// ********************************************************************************************
 		case 'analyze':
@@ -133,9 +133,9 @@ if (isset($_POST['action']))
 				closedir($h);
 				echo $out;
 				}
-			else echo '!'._('Not a ZIP file');
+			else echo '!'.T_('Not a ZIP file');
 			}
-		else echo '!'._('Error');
+		else echo '!'.T_('Error');
 		break;
 		// ********************************************************************************************
 		case 'create':
@@ -152,9 +152,9 @@ if (isset($_POST['action']))
 				echo $n;
 				if(is_dir('../../template/tem2uno/')) f_rmdirR('../../template/tem2uno/');
 				}
-			else echo '!'._('Not a ZIP file');
+			else echo '!'.T_('Not a ZIP file');
 			}
-		else echo '!'._('Error');
+		else echo '!'.T_('Error');
 		break;
 		// ********************************************************************************************
 		}
@@ -172,7 +172,7 @@ function f_theme_tem2uno($Ubusy)
 		{
 		if(is_dir($t.$f) && file_exists($t.$f.'/template.html') && $f!="." && $f!="..")
 			{
-			if($f==$tem) echo '<tr id="'.$f.'"><td>'.$f.'</td><td style="padding-left:10px;">'._('Selected').'</td></tr>';
+			if($f==$tem) echo '<tr id="'.$f.'"><td>'.$f.'</td><td style="padding-left:10px;">'.T_('Selected').'</td></tr>';
 			else if(stristr($f,'uno')!==false) echo '<tr id="'.$f.'"><td>'.$f.'</td><td></td></tr>';
 			else echo '<tr id="'.$f.'"><td>'.$f.'</td><td style="background-image:url(uno/includes/img/close.png);background-position:center center;background-repeat:no-repeat;cursor:pointer;width:30px;padding-left:10px;" onClick="f_supp_tem2uno(\''.$f.'\')">&nbsp;</td></tr>';
 			}
