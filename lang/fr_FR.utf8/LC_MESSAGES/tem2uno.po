@@ -2,21 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 11:09+0100\n"
-"PO-Revision-Date: 2015-08-25 11:09+0100\n"
-"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
+"POT-Creation-Date: 2017-03-15 19:45+0100\n"
+"PO-Revision-Date: 2017-03-15 19:45+0100\n"
+"Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
-"Language: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Country: FRANCE\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Language: French\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
 #: ../../../tem2uno.php:19
@@ -24,15 +23,25 @@ msgid "Theme to Uno"
 msgstr "Thème pour Uno"
 
 #: ../../../tem2uno.php:20
-msgid "This plugin is used to transform a theme from a CMS for a use in CMSUno."
-msgstr "Ce plugin transforme un thème provenant d'un autre CMS pour une utilisation par CMSUno."
+msgid ""
+"This plugin is used to transform a theme from a CMS for a use in CMSUno."
+msgstr ""
+"Ce plugin transforme un thème provenant d'un autre CMS pour une utilisation "
+"par CMSUno."
 
 #: ../../../tem2uno.php:21
-msgid "Simply download the ZIP file of the theme and double click on it. Click Analyze and choose the specific template. The theme will be available in config tab."
-msgstr "Télécharger le fichier ZIP du thème et double-cliquez. Analysez. Choisissez le bon fichier de template. Le thème sera disponible dans la partie config."
+msgid ""
+"Simply download the ZIP file of the theme and double click on it. Click "
+"Analyze and choose the specific template. The theme will be available in "
+"config tab."
+msgstr ""
+"Télécharger le fichier ZIP du thème et double-cliquez. Analysez. Choisissez "
+"le bon fichier de template. Le thème sera disponible dans la partie config."
 
 #: ../../../tem2uno.php:26
-msgid "Some adjustments to the html file may be necessary to stick perfectly to your needs."
+msgid ""
+"Some adjustments to the html file may be necessary to stick perfectly to "
+"your needs."
 msgstr "Certains ajustements seront peut-être nécessaire."
 
 #: ../../../tem2uno.php:27
@@ -83,18 +92,14 @@ msgstr "Suppression effectuée"
 msgid "Impossible deletion"
 msgstr "Suppression impossible"
 
-#: ../../../tem2uno.php:68
-#: ../../../tem2uno.php:138
-#: ../../../tem2uno.php:157
+#: ../../../tem2uno.php:68 ../../../tem2uno.php:138 ../../../tem2uno.php:157
 msgid "Error"
 msgstr "Erreur"
 
-#: ../../../tem2uno.php:136
-#: ../../../tem2uno.php:155
+#: ../../../tem2uno.php:136 ../../../tem2uno.php:155
 msgid "Not a ZIP file"
 msgstr "Pas un fichier ZIP"
 
 #: ../../../tem2uno.php:175
 msgid "Selected"
 msgstr "Selectionné"
-

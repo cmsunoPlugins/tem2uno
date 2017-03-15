@@ -29,5 +29,6 @@ Used to automatically transform a theme from another CMS (GetSimple & b2evolutio
 
 ### Versions ###
 
+* 1.1.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.1 - 14/10/2016 : Use PHP-Gettext in place of gettext
 * 1.0 - 05/10/2015 : First stable version
